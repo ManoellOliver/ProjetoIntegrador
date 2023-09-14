@@ -1,0 +1,98 @@
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #6e6e6e;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #000233;
+    color: #ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+main {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+h2 {
+    color: #00b899;
+}
+
+button {
+    background-color: #00b899;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+button:hover {
+    background-color: #007568;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #000233;
+    color: #ffffff;
+}
+
+.quadroCadastro {
+    background-color: #000233;
+    color: #ffffff;
+    padding: 50px;
+    border-radius: 10px;
+    width: 280px;
+    margin: 0 auto;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+.quadroCadastro input[type="email"],
+.quadroCadastro input[type="password"],
+.quadroCadastro input[type="text"] {
+    padding: 7px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.quadroCadastro input[type="submit"] {
+    margin-top: 20px;
+    background-color: #00b899;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+.quadroCadastro input[type="submit"]:hover {
+    background-color: #007568;
+}
+
+.FacaLogin {
+    color: #3f75ab;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>agendAÍ - Cadastro</title>
+	<link rel="stylesheet" type="text/css" href="telaCadastro.css">
+	<meta charset="UTF-8">
+</head>
+<body>
+	<header>
+		<h1>agendAÍ</h1>
+    <nav>   
+           <button id="homeBtn"> <a href="index.html">Inicio</a></button>
+        </nav>
+	</header>
+
+	
+
+	<main >
+		<section class="quadroCadastro">
+			<h2>Cadastro</h2>
+		
+			<form id="registration-form">
+				<label for="name">Nome:</label>
+				<input type="text" id="name" name="name" required>
+
+				<label for="email">E-mail:</label>
+				<input type="email" id="email" name="email" required>
+
+				<label for="Matrícula">Matricula:</label>
+				<input type="text" id="matricula" name="matricula" required >
+
+				<form id="registration-form">
+  <!-- ... outros campos ... -->
+
+  <label for="password">Senha:</label>
+  <input type="password" id="password" name="password" required>
+  <span id="password-error" class="error-message"></span>
+
+  <label for="confirm-password">Confirmar Senha:</label>
+  <input type="password" id="confirm-password" name="confirm-password" required>
+  <span id="confirm-password-error" class="error-message"></span>
+
+  <!-- ... outros campos ... -->
+
+  <input type="submit" value="Cadastrar">
+</form>
+
+
+
+			<p>Já possui uma conta? <a class="FacaLogin" href="telaLogin.html">Faça login</a></p>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 2023 agendAÍ</p>
+	</footer>
+	<script src="telaCadastro.js"></script>
+</body>
+</html>
