@@ -18,9 +18,7 @@ header {
 
 
 
-h2 {
-    color: #00b899;
-}
+
 
 button {
     background-color: #00b899;
@@ -55,9 +53,6 @@ footer {
     cursor: pointer;
 }
 
-.pc-label input[type="checkbox"] {
-    display: none;
-}
 
 .pc-label label {
     cursor: pointer;
