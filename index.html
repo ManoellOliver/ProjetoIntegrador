@@ -1,30 +1,45 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>agendAÍ - Sistema de Agendamento</title>
+	<title>agendAÍ- Login</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="UTF-8">
 </head>
 <body>
-    <header>
-        <h1>agendAÍ</h1>
-        <nav>
-           
-          
-           <button id="cadastroBtn"> <a href="telaCadastro.html">Cadastro</a></button>
-          
-          <button id="loginBtn"> <a href="telaLogin.html">Login</a></button>
+	<header>
+		<h1>AGENDAÍ</h1>
+
+     <nav>   
+           <button id="homeBtn"> <a href="index.html">Inicio</a></button>
         </nav>
-    </header>
-    <main>
-        <h2>Bem-vindo ao Agendaí</h2>
-        <p>Agende seu horário no laboratório de forma simples e fácil.</p>
-      
-    </main>
-    <footer>
-        <p>&copy; 2023 AgendAÍ - Sistema de Agendamento</p>
-    </footer>
-    <script src="script.js"></script>
+    
+	</header>
+
+	
+		  
+
+	<main>
+		<section>
+			<section class="login-container">
+            <h2>Login</h2>
+            <form id="login-form">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" required>
+
+                <input type="submit" value="Entrar">
+            </form>
+            <p>Não possui uma conta? <a class="Cadastre-se" href="telaCadastro.html">Cadastre-se</a></p>
+            <p><a class="Cadastre-se" href="telaRedefinir.html">Esqueceu sua senha?</a></p>
+        </section>
+	</main>
+
+	<footer>
+		<p>&copy; 2023 AGENDAÍ - Sistema de Agendamento</p>
+	</footer>
+
+	<script src="script.js"></script>
 </body>
 </html>
