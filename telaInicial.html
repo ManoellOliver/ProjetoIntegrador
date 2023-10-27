@@ -1,30 +1,105 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="telaInicial.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>agendAÍ - Sistema de Agendamento</title>
+    
 </head>
 <body>
     <header>
         <h1>AGENDAÍ</h1>
         <nav>
-           
-          
-           <button id="cadastroBtn"> <a href="telaCadastro.html">Cadastro</a></button>
-          
-          <button id="loginBtn"> <a href="index.html">Login</a></button>
+            
+          <a href="telaCadastro.html"><button >Cadastro</button></a>
+          <a href="index.html"><button >Login</button></a>
         </nav>
     </header>
     <main>
+      
+      <div class="conteudo-interno">
+       
         <h2>Bem-vindo ao Agendaí</h2>
         <p>Agende seu horário no laboratório de forma simples e fácil.</p>
+        <section>
+          <div><button type="button">AGENDE AGORA!</button></div>
+        </section>
+        <ul class="flex-container">
+          <li class="flex-item"><a href="agendamento.html"><div class="box">LAB 1</div></a></li>
+          <li class="flex-item"><a href=".html"><div class="box">LAB 2</div></a></li>
+      </ul>
+    </div>
+    <div class="conteudo-externo">
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/IMG_20190909_130059074-edited-1024x576.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/Linguagen-de-programacao-2-shutterstock_1680857539.jpg.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/Frame-113-1-515x211.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+  <!-- Separação do bootstrap -->
       
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            julio Gay
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">juliooooooooooooooooooooooooooooooo  <code>gay</code> muito muito</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            Nasla
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Nasla dublê de  <code>julio valença</code> kkkkkkkkkkkkkkkkkkkkk</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            Odeio taxação
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">A taxação de importação é como um peso que esmaga os sonhos dos consumidores. Quando você encontra o produto dos seus sonhos, o valor 
+            sobe tão alto com as taxas que se torna um pesadelo. 
+            Parece uma injustiça, uma barreira impenetrável que coloca enormes obstáculos à obtenção de produtos desejados. É 
+            como se o sistema conspirasse contra aqueles que buscam variedade e qualidade. <code>Lula cara de percata</code> Desabafo</div>
+        </div>
+      </div>
+    </div>
+        
     </main>
+    
     <footer>
         <p>&copy; 2023 AGENDAÍ - Sistema de Agendamento</p>
     </footer>
     <script src="telaInicial.js"></script>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </html>

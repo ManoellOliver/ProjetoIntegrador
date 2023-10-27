@@ -7,127 +7,52 @@
     <link rel="stylesheet" href="agendamento.css">
 </head>
 <body>
-    <header><h1>Agendamento de Laboratório</h1></header>
-    <div class="lab-container">
-        
-        <p>Selecione o computador que deseja agendar:</p>
-        
-        <!-- Ícones clicáveis representando os Computadores -->
-        <div class="pc-icons">
-            <!-- Computador 1 -->
-            <div class="pc-icon">
-                <label class="pc-label" onclick="toggleSelection('computer1')">
-                    <input type="checkbox" name="computer1" id="computer1">
-                    <img src="img/favicon.ico" alt="Computador 1">
-                    <br>
-                    <span>Computador 1</span>
-                </label>
-            </div>
-            
-            <!-- Computador 2 -->
-            <div class="pc-icon">
-                <label class="pc-label" onclick="toggleSelection('computer2')">
-                    <input type="checkbox" name="computer2" id="computer2">
-                    <img src="img/favicon.ico" alt="Computador 2">
-                    <br>
-                    <span>Computador 2</span>
-                </label>
-            </div>
+    <header><h1>Agendamento de Laboratório</h1>
+        <a href="telaInicial.html"><button >Voltar</button></a>
+    </header>
+   <div class="lab-container">
+    <p>Selecione o computador que deseja agendar:</p>
 
-            <!-- Adicione mais Computadores conforme necessário -->
-            <!-- Computador 3 -->
-            <div class="pc-icon">
-                <label class="pc-label" onclick="toggleSelection('computer3')">
-                    <input type="checkbox" name="computer3" id="computer3">
-                    <img src="img/favicon.ico" alt="Computador 3">
-                    <br>
-                    <span>Computador 3</span>
-                </label>
-            </div>
-
-            <!-- Computador 4 -->
-            <div class="pc-icon">
-                <label class="pc-label" onclick="toggleSelection('computer4')">
-                    <input type="checkbox" name="computer4" id="computer4">
-                    <img src="img/favicon.ico" alt="Computador 4">
-                    <br>
-                    <span>Computador 4</span>
-                </label>
-            </div>
-
-            <!-- Computador 5 -->
-            <div class="pc-icon">
-                <label class="pc-label" onclick="toggleSelection('computer5')">
-                    <input type="checkbox" name="computer5" id="computer5">
-                    <img src="img/favicon.ico" alt="Computador 5">
-                    <br>
-                    <span>Computador 5</span>
-                </label>
-            </div>
-
-            <!-- Computador 6 -->
-            <div class="pc-icon">
-                <label class="pc-label" onclick="toggleSelection('computer6')">
-                    <input type="checkbox" name="computer6" id="computer6">
-                    <img src="img/favicon.ico" alt="Computador 6">
-                    <br>
-                    <span>Computador 6</span>
-                </label>
-            </div>
-
-            <!-- Computador 7 -->
-            <div class="pc-icon">
-                <label class="pc-label" onclick="toggleSelection('computer7')">
-                    <input type="checkbox" name="computer7" id="computer7">
-                    <img src="img/favicon.ico" alt="Computador 7">
-                    <br>
-                    <span>Computador 7</span>
-                </label>
-            </div>
-
-            <!-- Computador 8 -->
-            <div class="pc-icon">
-                <label class="pc-label" onclick="toggleSelection('computer8')">
-                    <input type="checkbox" name="computer8" id="computer8">
-                    <img src="img/favicon.ico" alt="Computador 8">
-                    <br>
-                    <span>Computador 8</span>
-                </label>
-            </div>
-
-            <!-- Computador 9 -->
-            <div class="pc-icon">
-                <label class="pc-label" onclick="toggleSelection('computer9')">
-                    <input type="checkbox" name="computer9" id="computer9">
-                    <img src="img/favicon.ico" alt="Computador 9">
-                    <br>
-                    <span>Computador 9</span>
-                </label>
-            </div>
-
-            <!-- Computador 10 -->
-            <div class="pc-icon">
-                <label class="pc-label" onclick="toggleSelection('computer10')">
-                    <input type="checkbox" name="computer10" id="computer10">
-                    <img src="img/favicon.ico" alt="Computador 10">
-                    <br>
-                    <span>Computador 10</span>
-                </label>
-            </div>
-
-            <!-- Computador 11 -->
-            <div class="pc-icon">
-                <label class="pc-label" onclick="toggleSelection('computer11')">
-                    <input type="checkbox" name="computer11" id="computer11">
-                    <img src="img/favicon.ico" alt="Computador 11">
-                    <br>
-                    <span>Computador 11</span>
-                </label>
-            </div>
+    <!-- Ícones clicáveis representando os Computadores -->
+    <div class="pc-icons">
+        <!-- Computador 1 -->
+        <div class="pc-icon">
+            <label class="pc-label" onclick="selectComputer('computer1')">
+                <input type="radio" name="selectedComputer" id="computer1">
+                <img src="img/favicon.ico" alt="Computador 1">
+                <br>
+                <span>Computador 1</span>
+            </label>
+        </div>
+         <!-- Ícones clicáveis representando os Computadores -->
+    <div class="pc-icons">
+        <!-- Computador 2 -->
+        <div class="pc-icon">
+            <label class="pc-label" onclick="selectComputer('computer2')">
+                <input type="radio" name="selectedComputer" id="computer2">
+                <img src="img/favicon.ico" alt="Computador 2">
+                <br>
+                <span>Computador 2</span>
+            </label>
         </div>
         
-        <button type="button" onclick="submitForm()">Agendar Computador(es) selecionado(s)</button>
+        <!-- Computador 2 -->
+        <!-- Adicione mais Computadores conforme necessário -->
+        <!-- Computador 3 -->
+        <!-- Computador 4 -->
+        <!-- Computador 5 -->
+        <!-- Computador 6 -->
+        <!-- Computador 7 -->
+        <!-- Computador 8 -->
+        <!-- Computador 9 -->
+        <!-- Computador 10 -->
+        <!-- Computador 11 -->
     </div>
+</div>
+    
+    <button type="button" onclick="submitForm()">Agendar Computador selecionado</button>
+
+
     <footer>
 		<p>&copy; 2023 AGENDAÍ - Sistema de Agendamento</p>
 	</footer>

@@ -61,3 +61,18 @@ footer {
 .selected-pc {
     background-color: #ffc107;
 }
+
+/* Estilize o ícone do computador */
+.pc-icon {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: transform 0.3s; /* Adicione uma transição para suavizar a animação */
+}
+
+/* Estilize o ícone quando o mouse passa sobre ele */
+.pc-icon:hover {
+    transform: scale(1.1); /* Aumente o tamanho quando o mouse passar sobre o ícone */
+}
