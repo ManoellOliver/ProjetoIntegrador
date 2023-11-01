@@ -87,4 +87,12 @@ footer {
     background: #00b899; /* Cor de fundo branca */
     position: relative;
     padding: 100px; /* Espaçamento interno para conteúdo fora da div interna */
+    margin-top: 150px;
 }
+
+.card, .card2 {
+    display: flex; 
+    margin-right: 150px; 
+    margin-left: 150px;
+    
+  }
