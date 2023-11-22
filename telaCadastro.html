@@ -15,38 +15,36 @@
 
 	
 
-	<main >
+	<main>
 		<section class="quadroCadastro">
 			<h2>Cadastro</h2>
 		
 			<form id="registration-form">
 				<label for="name">Nome completo:</label>
 				<input type="text" id="name" name="name" required>
-
+	
 				<label for="email">E-mail:</label>
 				<input type="email" id="email" name="email" required>
-
-				<label for="Matrícula">Curso:</label>
-				<input type="text" id="matricula" name="matricula" required >
-
-				<form id="registration-form">
-  <!-- ... outros campos ... -->
-
-  <label for="password">Senha:</label>
-  <input type="password" id="password" name="password" required>
-  <span id="password-error" class="error-message"></span>
-
-  <label for="confirm-password">Confirmar Senha:</label>
-  <input type="password" id="confirm-password" name="confirm-password" required>
-  <span id="confirm-password-error" class="error-message"></span>
-
-  <!-- ... outros campos ... -->
-
-  <input type="submit" value="Cadastrar">
-</form>
-
-
-
+	
+				<label for="dataNascimento">Data de Nascimento:</label>
+				<input type="date" id="dataNascimento" name="dataNascimento" required>
+				<br>
+	
+				<!-- Restante do formulário... -->
+	
+				<label for="password">Senha:</label>
+				<input type="password" id="password" name="password" required>
+				<span id="password-error" class="error-message"></span>
+	
+				<label for="confirm-password">Confirmar Senha:</label>
+				<input type="password" id="confirm-password" name="confirm-password" required>
+				<span id="confirm-password-error" class="error-message"></span>
+	
+				<!-- ... outros campos ... -->
+	
+				<input type="submit" value="Cadastrar">
+			</form>
+	
 			<p>Já possui uma conta? <a class="FacaLogin" href="index.html">Faça login</a></p>
 		</section>
 	</main>
